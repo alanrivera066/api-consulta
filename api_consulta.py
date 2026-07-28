@@ -8,12 +8,12 @@ usuarios = respuesta.json()
 usuarios2 = respuesta2.json()
 usuarios3 = respuesta3.json()
 
-#for usuario in usuarios:
-   # print(f"{(usuario["name"])} | {(usuario["email"])}")
+for usuario in usuarios:
+   print(f"{(usuario["name"])} | {(usuario["email"])}")
 
-#print("--------------------------------------------------------")
-#for comments in usuarios2:
-   # print(f"{(comments["name"])} | {(comments["email"])}")
+print("--------------------------------------------------------")
+for comments in usuarios2:
+   print(f"{(comments["name"])} | {(comments["email"])}")
 
 print("--------------------------------------------------------")
 for post in usuarios3:
